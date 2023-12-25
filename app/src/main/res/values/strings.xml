@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyCity</string>
+    <string name="oberoi" ><a href="https://www.google.com/maps/place/The+Oberoi,+Bengaluru/@12.9736048,77.6158276,17z/data=!3m1!4b1!4m9!3m8!1s0x3bae16835c3ada19:0x7065f59042b7b2db!5m2!4m1!1i2!8m2!3d12.9736048!4d77.6184025!16s%2Fg%2F1thqf630?entry=ttu">
+        Location
+    </a></string>
+    <string name="jw" ><a href="https://www.google.com/maps/place/JW+Kitchen/@12.9720337,77.59477,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMWzqpSsRy9MVX-kw1Z0HUshlOwcQixlXLGPseq!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMWzqpSsRy9MVX-kw1Z0HUshlOwcQixlXLGPseq%3Dw129-h86-k-no!7i4128!8i2752!4m7!3m6!1s0x3bae167747e21fff:0xc02869d96bcabbc2!8m2!3d12.972231!4d77.594953!10e5!16s%2Fg%2F1q5bnqnvh?entry=ttu">
+        Location
+    </a></string>
+    <string name="fortis" ><a href="https://www.google.com/maps/place/Fortis+Hospital+Richmond+Road/@12.9658464,77.609331,3a,85.8y,90t/data=!3m8!1e2!3m6!1sAF1QipOS62mWvTJqF05Se8TM1iTyUP_hD9_zP-8-ZsXa!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOS62mWvTJqF05Se8TM1iTyUP_hD9_zP-8-ZsXa%3Dw152-h86-k-no!7i1024!8i576!4m11!1m2!2m1!1shospital!3m7!1s0x3bae142ac1c81093:0xa2fc9609c496d0c4!8m2!3d12.9657803!4d77.609523!10e5!15sCghob3NwaXRhbJIBCGhvc3BpdGFs4AEA!16s%2Fg%2F11bw6dhq9c?entry=ttu">
+        Location
+    </a></string>
+    <string name="palace"><a href="https://www.google.com/maps/place/Bengaluru+Palace/@13.0035071,77.5800835,16z/data=!4m10!1m2!2m1!1sbangalore+palace!3m6!1s0x3bae1649294a5637:0xb1f8b77e331512cf!8m2!3d13.0035068!4d77.5890953!15sChBiYW5nYWxvcmUgcGFsYWNlWhIiEGJhbmdhbG9yZSBwYWxhY2WSARdoaXN0b3JpY2FsX3BsYWNlX211c2V1beABAA!16s%2Fm%2F02pf96d?entry=ttu">Location</a></string>
+    <string name="school"><a href="https://www.google.com/maps/place/Delhi+Public+School+Bangalore+East,+Kodati+Sulikunte+Road,+Kodathi,+Bengaluru,+Karnataka+560099/@12.8846637,77.7227372,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae12b4e04133d1:0x2a166c98d14b9255!8m2!3d12.8846637!4d77.7253121!16s%2Fg%2F11c4l1zf8w?entry=ttu">Location</a>  </string>
+</resources>
