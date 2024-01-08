@@ -1,14 +1,185 @@
 <resources>
     <string name="app_name">MyCity</string>
-    <string name="oberoi" ><a href="https://www.google.com/maps/place/The+Oberoi,+Bengaluru/@12.9736048,77.6158276,17z/data=!3m1!4b1!4m9!3m8!1s0x3bae16835c3ada19:0x7065f59042b7b2db!5m2!4m1!1i2!8m2!3d12.9736048!4d77.6184025!16s%2Fg%2F1thqf630?entry=ttu">
+    <string name="oberoi"><a href="https://www.google.com/maps/place/The+Oberoi,+Bengaluru/@12.9736048,77.6158276,17z/data=!3m1!4b1!4m9!3m8!1s0x3bae16835c3ada19:0x7065f59042b7b2db!5m2!4m1!1i2!8m2!3d12.9736048!4d77.6184025!16s%2Fg%2F1thqf630?entry=ttu">
         Location
     </a></string>
-    <string name="jw" ><a href="https://www.google.com/maps/place/JW+Kitchen/@12.9720337,77.59477,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMWzqpSsRy9MVX-kw1Z0HUshlOwcQixlXLGPseq!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMWzqpSsRy9MVX-kw1Z0HUshlOwcQixlXLGPseq%3Dw129-h86-k-no!7i4128!8i2752!4m7!3m6!1s0x3bae167747e21fff:0xc02869d96bcabbc2!8m2!3d12.972231!4d77.594953!10e5!16s%2Fg%2F1q5bnqnvh?entry=ttu">
+    <string name="jw"><a href="https://www.google.com/maps/place/JW+Kitchen/@12.9720337,77.59477,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMWzqpSsRy9MVX-kw1Z0HUshlOwcQixlXLGPseq!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMWzqpSsRy9MVX-kw1Z0HUshlOwcQixlXLGPseq%3Dw129-h86-k-no!7i4128!8i2752!4m7!3m6!1s0x3bae167747e21fff:0xc02869d96bcabbc2!8m2!3d12.972231!4d77.594953!10e5!16s%2Fg%2F1q5bnqnvh?entry=ttu">
         Location
     </a></string>
-    <string name="fortis" ><a href="https://www.google.com/maps/place/Fortis+Hospital+Richmond+Road/@12.9658464,77.609331,3a,85.8y,90t/data=!3m8!1e2!3m6!1sAF1QipOS62mWvTJqF05Se8TM1iTyUP_hD9_zP-8-ZsXa!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOS62mWvTJqF05Se8TM1iTyUP_hD9_zP-8-ZsXa%3Dw152-h86-k-no!7i1024!8i576!4m11!1m2!2m1!1shospital!3m7!1s0x3bae142ac1c81093:0xa2fc9609c496d0c4!8m2!3d12.9657803!4d77.609523!10e5!15sCghob3NwaXRhbJIBCGhvc3BpdGFs4AEA!16s%2Fg%2F11bw6dhq9c?entry=ttu">
+    <string name="fortis"><a href="https://www.google.com/maps/place/Fortis+Hospital+Richmond+Road/@12.9658464,77.609331,3a,85.8y,90t/data=!3m8!1e2!3m6!1sAF1QipOS62mWvTJqF05Se8TM1iTyUP_hD9_zP-8-ZsXa!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOS62mWvTJqF05Se8TM1iTyUP_hD9_zP-8-ZsXa%3Dw152-h86-k-no!7i1024!8i576!4m11!1m2!2m1!1shospital!3m7!1s0x3bae142ac1c81093:0xa2fc9609c496d0c4!8m2!3d12.9657803!4d77.609523!10e5!15sCghob3NwaXRhbJIBCGhvc3BpdGFs4AEA!16s%2Fg%2F11bw6dhq9c?entry=ttu">
         Location
     </a></string>
     <string name="palace"><a href="https://www.google.com/maps/place/Bengaluru+Palace/@13.0035071,77.5800835,16z/data=!4m10!1m2!2m1!1sbangalore+palace!3m6!1s0x3bae1649294a5637:0xb1f8b77e331512cf!8m2!3d13.0035068!4d77.5890953!15sChBiYW5nYWxvcmUgcGFsYWNlWhIiEGJhbmdhbG9yZSBwYWxhY2WSARdoaXN0b3JpY2FsX3BsYWNlX211c2V1beABAA!16s%2Fm%2F02pf96d?entry=ttu">Location</a></string>
     <string name="school"><a href="https://www.google.com/maps/place/Delhi+Public+School+Bangalore+East,+Kodati+Sulikunte+Road,+Kodathi,+Bengaluru,+Karnataka+560099/@12.8846637,77.7227372,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae12b4e04133d1:0x2a166c98d14b9255!8m2!3d12.8846637!4d77.7253121!16s%2Fg%2F11c4l1zf8w?entry=ttu">Location</a>  </string>
+    <string-array name="hotel_names">
+        <item>Oberoi</item>
+        <item>JW marroit</item>
+        <item>Leela Palace</item>
+        <item>Redison Blue </item>
+        <item>Hyatt</item>
+        <item>Center</item>
+        <item>Holiday Inn</item>
+        <item>Taj </item>
+        <item>Southern Star</item>
+    </string-array>
+
+    <string-array name="hotel_dis">
+        <item>Strategically situated in Bangalore City Center, allowing you access and proximity to local attractions and sights. Do not leave before paying a visit to the famous Lalbagh Botanical Garden. Rated with 5 stars, this high-quality property provides guests with access to massage, restaurant and fitness center on-site</item>
+        <item>JW Marriott Hotel Bengaluru sits in the Bangalore Central Business District near the neighborhood of Koramangala. Our hotel on Vittal Mallya Road is also near UB City Mall, Cubbon Park, Mahatma Ghandi Road, United Breweries and many Fortune 500 companies.</item>
+        <item>The Leela Palace Bangalore features décor reflecting the grandeur of the bygone era and features of facilities such as an outdoor swimming pool, a spa and wellness center, Yoga studio and 4 award winning food and beverage / dining options.</item>
+        <item>Located in the heart of Bengaluru overlooking Ulsoor Lake, the Radisson offers contemporary rooms and suites near city center businesses and attractions. Enjoy our rooftop pool, an on-site spa, and a 24-hour international restaurant. </item>
+        <item>Strategically situated in Bangalore City Center, allowing you access and proximity to local attractions and sights. Donot leave before paying a visit to the famous Lalbagh Botanical Garden. This 5-star property features restaurant to make your stay more indulgent and memorable.</item>
+        <item>The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Indiranagar part of Bangalore, this property puts you close to attractions and interesting dining options.</item>
+        <item>Conveniently located along Sheshadri Road across Bangalore turf club, Holiday Inn Bengaluru Racecourse overlooks the Bangalore Turf Club ensuring great views</item>
+        <item>With a large outdoor pool fronting the property, Taj Yeshwantpur Bengaluru features a day spa and fitness facilities. Modern rooms boast floor-to-ceiling windows, a flat-screen TV and a DVD player. Just 1.9 mi from the ISKCON Temple Bangalore. </item>
+        <item>Located on the peaceful sands of Naklua Beach, Southern Star Resort offers air-conditioned budget accommodation with attached bathrooms. It features a 24-hour outdoor pool with sun loungers and free Wi-Fi in common areas.</item>
+
+
+    </string-array>
+
+    <string-array name="hotel_contact">
+        <item>+91 6618797973 , reservmys@hoteloberoi.com</item>
+        <item>+91 9618797973 , reservmys@hoteljwmarroit.com</item>
+        <item>+91 7118797973 , reservmys@hotelleela.com</item>
+        <item>+91 7125737973 , reservmys@hotelradison.com</item>
+        <item>+91 9718797973 , reservmys@hotelhyaat.com</item>
+        <item>+91 87618797973 , reservmys@hotelcenter.com</item>
+        <item>+91 7818797973 , reservmys@hotelholydayinn.com</item>
+        <item>+91 7618797973 , reservmys@taj.com</item>
+        <item> +91 7318797973 , reservmys@southernstar.com</item>
+    </string-array>
+
+    <string-array name="res_names">
+        <item>Salt</item>
+        <item>Ministry Of Food</item>
+        <item>Loya</item>
+        <item>Indian Durbar</item>
+        <item>Nook</item>
+        <item>46 Ounces</item>
+        <item>Bang Cafe</item>
+
+    </string-array>
+
+    <string-array name="res_dis">
+        <item>Salt is based on a very simple mantra; “Most delicious Indian recipes that reflect the real taste and soul of Indian Food which is served in a cheerful restaurant where food lovers can relax and eat with their fingers if they wish.</item>
+        <item>Experience a culinary paradise at our all-day dining buffet, where you can indulge in a diverse selection of European, Pan-Asian, Indian, and Japanese delicacies.</item>
+        <item>Loya is a North Indian restaurant in Bangalore serving the Norths most cherished recipes. Reserve a table now and experience the taste from the foothills of the Himalayas to the flat terrain of Punjab..</item>
+        <item>Indian Durbar crafts an enchanting experience that celebrates the royal flavours of India, with a fine blend of elegance and grandeur. Explore a menu of regional dishes featuring exotic curries, tandoor specialties, aromatic side dishes, and globally-renowned beverages.</item>
+        <item>Stylish restaurant offering international dishes, including Chinese and Continental cuisine.</item>
+        <item>Forty Six Ounces is the first of its kind micro-brewery in Electronic City, Bangalore.With lush green gardens, soothing water bodies and natural aesthetics, the ambience gives out an aura of elation. A space where you can free your spirits, be happy and have fun or just put the world behind you and relax.</item>
+        <item>Discover BANG, the epitome of culinary excellence. This award-winning bar and restaurant offers an unparalleled experience. Ascend to the rooftop for a vibe thats both chic and casual, complete with a cozy firepit area primed for private parties</item>
+
+
+    </string-array>
+
+    <string-array name="res_contact">
+        <item>+91 8089842834 , Opening Hours:11:00 to 23:00</item>
+        <item>+91 9618797973 , Opening Hours:7am to 11pm</item>
+        <item>+91 8066605660 , Opening Hours:12:30pm – 3:30pm,7:30pm – 11pm</item>
+        <item>+91 8884755994 , Opening Hours:7 – 11:30pm</item>
+        <item>+91 8045101010 , Opening Hours:7am – 11:30pm </item>
+        <item>+91 7406354646 , Opening Hours:12:00pm - 11:30pm</item>
+        <item>+91 8049148000 , Opening Hours:6am-11pm</item>
+
+    </string-array>
+
+    <string-array name="hos_names">
+        <item>Altius</item>
+        <item>Apollo</item>
+        <item>Aster</item>
+        <item>Baptist</item>
+
+
+    </string-array>
+
+    <string-array name="hos_dis">
+        <item>At Altius Hospitals, Bangalore, we stand as pioneers in healthcare, thanks to our innovative and integrated model that brings all essential services under one roof. Our commitment to providing holistic care has made us a trusted name in the industry. </item>
+        <item>Apollo Healthcare has a robust presence across the healthcare ecosystem. From routine wellness and preventive health care to innovative life-saving treatments and diagnostic services, Apollo Hospitals has touched more than 200 million lives from over 120 countries.</item>
+        <item>Aster CMI hospital, one of the best hospital in Bangalore, with serene ambience, spacious interiors, advanced medical facilities, and best doctors, has always strived to achieve the best clinical outcomes. In our constant endeavour to create a world-class patient-centric hospital, we have secured our position as one of the best multispecialty hospitals.</item>
+        <item>Located in the heart of Bengaluru overlooking Ulsoor Lake, the Radisson offers contemporary rooms and suites near city center businesses and attractions. Enjoy our rooftop pool, an on-site spa, and a 24-hour international restaurant. </item>
+
+
+    </string-array>
+
+    <string-array name="hos_contact">
+        <item> Dr.Darshana (Internal Medicine and Diabetologist),Dr.Jai Babu K (Cardiologist),8882799799,8788932413</item>
+        <item> Dr.Sathyaki (Cardio-Thoracic and Vascular Surgery) , Dr. Murthy S(Nuclear Medicine),9877632813,7338756921</item>
+        <item> Dr.Umesh Srikantha(Neurosurgery, Head of Spine Services), 8043420100</item>
+        <item> Dr. Abhijit Jawali A(Orthopaedics and Joint Replacement), Dr. Ajay Handa(Pulmonology)</item>
+
+
+    </string-array>
+
+    <string-array name="places_names">
+        <item>Cubbon Park</item>
+        <item>Iskon Temple</item>
+        <item>Lal Bagh</item>
+        <item>Vidhan Soudha</item>
+        <item>Bangalore Palace</item>
+        <item>St Mary Basilica</item>
+
+
+    </string-array>
+
+    <string-array name="places_dis">
+        <item>Strategically situated in Bangalore City Center, allowing you access and proximity to local attractions and sights. This high-quality property provides guests with access to massage, restaurant and fitness center on-sit Cubbon Park in the city of Bangalore is a major sightseeing attraction rich in green foliage. It is home to more than 6,000 trees that support a vibrant ecosystem.</item>
+        <item>It is not just a temple, but a cultural complex housing the temples dedicated to the Deities of Sri Sri Radha Krishnachandra, Sri Sri Krishna Balarama, Sri Sri Nitai Gauranga, Sri Srinivasa Govinda.</item>
+        <item>A centre for botanical artwork and conservation of plants, Lalbagh is one of the most scenic gardens in the state. Sprawling over an area of 240 acre, the park draws visitors in large numbers with its popular glass house and also serves as a home for as many as 1,854 species of plants.</item>
+        <item>Spread over an area of 60 acre, Vidhana Soudha is a famous landmark in Bengaluru that houses the Secretariat and the State Legislature. </item>
+        <item>The Bangalore Palace is famous for its beautiful wood carvings and fascinating architecture. To an extent, it resembles the medieval castles of Normandy and England as it has been built in the Tudor style of architecture.</item>
+        <item>Standing 80 m (262 ft) tall, it is particularly famous for its wooden altarpiece carved by Veit Stoss (Wit Stwosz). Some of its monumental polychrome murals were designed by Poland leading history painter, Jan Matejko (1898–1891</item>
+
+
+    </string-array>
+
+    <string-array name="places_contact">
+        <item>+91 6618797973 , Opening Hours: 6:00 AM - 6:00 PM</item>
+        <item>+91 8023471956 , Opening Hours:4:15 AM - 5:00 AM, 7:15 AM - 8:30 PM</item>
+        <item>+91 7118797973 , Opening Hours:6:00 AM - 7:00 PM</item>
+        <item>+91 8044554455 , Opening Hours:9:0AM-5:00PM</item>
+        <item>+91 7118797973 , Opening Hours:10:00AM-5:00PM</item>
+        <item>+91 8951302508 , Opening Hours:9:00AM-10:00PM</item>
+
+
+    </string-array>
+
+
+    <string-array name="school_names">
+        <item>Gopalan International Shool</item>
+        <item>Presidency School</item>
+        <item>The International School Bangalore</item>
+        <item>Caadian International School</item>
+
+
+    </string-array>
+
+    <string-array name="school_dis">
+        <item>Our team is backed by rich educational experience of having worked in various prestigious institutes, and these inspiring minds have created an innovative model of instruction for the pre-primary and primary stages. This model incorporates the very effective concepts of Montessori and the Play Way system.</item>
+        <item>We are ranked among the leading K-12 schools in Bengaluru and are known for nurturing academic excellence, along with strong moral and ethical values, that make our students inclusive, secular, and winners for life, building an enviable reputation.</item>
+        <item>we at TISB pride ourselves on the quality of our education and our outstanding academic results. Our students balance a wealth of co-curricular opportunity with academic excellence to develop into aspirational thinkers with a desire for lifelong learning.</item>
+        <item>At Canadian International School, we embrace growth mindset research and approaches to learning with the belief that intelligence is not fixed and predetermined. We can all grow more intelligent across a wide range of disciplines through hard work, reflection, and effort. We appreciate that our students are unique and may pursue their own paths in life. </item>
+
+
+    </string-array>
+
+    <string-array name="school_contact">
+        <item>+91 8147788173 , Mrs. Rajashree Nitin Chaudhari,(Principal GIS)</item>
+        <item>080690 90800 , admission@presidency.edu.in</item>
+        <item>+91 8067235900 , admission@tisb.edu.in</item>
+        <item>+91 8067594444 , enroll@cisb.org.in</item>
+
+
+    </string-array>
+
+
+    <string name="map">
+        <a href="http://map.google.com">
+        Location
+    </a>
+
+</string>
+
+
+
+
 </resources>

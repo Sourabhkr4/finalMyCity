@@ -7,77 +7,44 @@
     android:background="@drawable/background">
 
 
+    <SearchView
+        android:id="@+id/search1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/search_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:queryHint="Search....."
+        app:iconifiedByDefault="false"
+        />
 
     <ImageView
         android:id="@+id/hotel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="408dp"
+        android:layout_marginTop="372dp"
         android:transitionName="sharedImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="441dp"
-        android:layout_height="290dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/hotellist"
+        android:layout_width="391dp"
+        android:layout_height="595dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/hotellocation"
-        app:srcCompat="@drawable/oberaoi"
-        tools:layout_editor_absoluteX="-15dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hotels In Your Area"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482" />
-
-    <TextView
-        android:id="@+id/hotellocation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:text="@string/oberoi"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:text="Oberoi Hotel(MG Road)"
-        android:textAlignment="center"
-        android:textColor="#B71C1C"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="371dp"
-        android:layout_height="171dp"
-        android:text="Luxurious and elegant, all the air-conditioned guestrooms enjoy beautiful garden views. A flat-screen TV, mini-bar and personal safe are included. Private bathrooms come with hot-water showers and Ayurvedic toiletries.
-The Oberoi Bangalore is within 1.2 mi from M.G. Road, Brigade Road and Commercial Street. It is a 30-minute drive from Cantonment Railway Station and a 1-hour, 30-minute drive from Bangalore Airport."
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="@+id/hotel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/search1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
